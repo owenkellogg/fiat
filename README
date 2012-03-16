@@ -12,8 +12,8 @@ USAGE
 
     gold = FiatNavigator.translate_to_gold 500, :$ 
 
-		puts gold
-		=> "0.3009 ounces gold"
+    puts gold
+    => "0.3009 ounces gold"
 
     puts gold.unit
     => :ounces
@@ -25,14 +25,14 @@ USAGE
 
     dollars = FiatNavigator.translate_to_dollars 0.2, :ounces, :gold  
 	
-		puts dollars
-		=> "332.30 dollars" 
+    puts dollars
+    => "332.30 dollars" 
 
-		puts dollars.unit
-		=> :dollars
+    puts dollars.unit
+    => :dollars
 
-		puts dollars.amount
-	  => 332.30
+    puts dollars.amount  
+    => 332.30
 		
   # I have 0.2 ounces gold but I need to move it into the mainstream banking or financial system
 
