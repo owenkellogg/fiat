@@ -1,11 +1,7 @@
 We all hate the trickiness of the fiat debt units issued by governments worldwide
 and would prefer to undertake transactions using real money. 
 
-Introducing ... 
-
---------> FIAT NAVIGATOR <<--------
-
-A simple calculator for translating currency units into weight in silver and gold, and vice versa. 
+Introducing --------> FIAT NAVIGATOR <<-------- A simple calculator for translating currency units into weight in silver and gold, and vice versa. 
 
 USAGE
 
