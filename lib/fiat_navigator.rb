@@ -24,3 +24,4 @@ class FiatNavigator
 end
 
 require 'fiat_navigator/stash.rb'
+require 'fiat_navigator/gold.rb'
