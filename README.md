@@ -45,3 +45,11 @@ USAGE
 		
     FiatNavigator.all_previous_translations
     => ["0.2 ounces gold translates to 332.30 dollars", "500 dollars translates to 0.3009 ounces gold"]
+
+	The navigator works with real time gold prices from goldmoney.com
+
+		Gold.dollars_per_ounce
+		=> "$1,653.60" 
+
+		Gold.dollars_per_gram
+		=> "$53.1636" 
