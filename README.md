@@ -13,8 +13,8 @@ INSTALLATION
 
 USAGE
 
-  require 'fiat_navigator'
-	=> true 
+    require 'fiat_navigator'
+    => true 
 
   I want to pay a friend about the value of $500, in gold 
 
