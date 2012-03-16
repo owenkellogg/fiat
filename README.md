@@ -5,7 +5,7 @@ Introducing FIAT NAVIGATOR  A simple calculator for translating currency units i
 
 INSTALLATION
 <pre><code>
-	git clone git@github.com:stevenzeiler/fiat_navigator.git
+  git clone git@github.com:stevenzeiler/fiat_navigator.git
   cd fiat_navigator
   gem build fiat_navigator.gemspec
   gem install fiat_navigator
