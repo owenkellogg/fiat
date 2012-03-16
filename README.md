@@ -5,7 +5,7 @@ Introducing --------> FIAT NAVIGATOR <<-------- A simple calculator for translat
 
 USAGE
 
-  # I want to pay a friend about the value of $500, in gold 
+  I want to pay a friend about the value of $500, in gold 
 
     gold = FiatNavigator.translate_to_gold 500, :$ 
 
@@ -18,7 +18,7 @@ USAGE
     puts gold.amount
     => 0.3009 
 
-  # I have gold but I need $500 cash, and must sell some
+  I have gold but I need $500 cash, and must sell some
 
     dollars = FiatNavigator.translate_to_dollars 0.2, :ounces, :gold  
 	
@@ -31,17 +31,17 @@ USAGE
     puts dollars.amount  
     => 332.30
 		
-  # I have 0.2 ounces gold but I need to move it into the mainstream banking or financial system
+  I have 0.2 ounces gold but I need to move it into the mainstream banking or financial system
 
     FiatNavigator.do_business_with_the_federal_reserve
     => Error: Hopefully this tool will not be used to facilitate such disappointing behavior. 
  
-  # I want to review the last full translation
+  I want to review the last full translation
 
     FiatNavigator.previous_translation
     => "0.2 ounces gold translates to 332.30 dollars"
 
-  # Or all transactions from this session
+  Or all transactions from this session
 		
     FiatNavigator.all_previous_translations
     => ["0.2 ounces gold translates to 332.30 dollars", "500 dollars translates to 0.3009 ounces gold"]
