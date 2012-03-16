@@ -48,8 +48,8 @@ USAGE
 
   The navigator works with real time gold prices from goldmoney.com
 
-		Gold.dollars_per_ounce
-		=> "$1,653.60" 
+    Gold.dollars_per_ounce
+    => "$1,653.60" 
 
-		Gold.dollars_per_gram
-		=> "$53.1636" 
+    Gold.dollars_per_gram
+    => "$53.1636" 
