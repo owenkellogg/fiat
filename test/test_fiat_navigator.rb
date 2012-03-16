@@ -19,4 +19,13 @@ class TestFiatNavigator < MiniTest::Unit::TestCase
 		translation = FiatNavigator.previous_translation
 		assert_equal "500 dollars translates to 0.3009 ounces gold", translation
 	end 
+
+	def test_all_previous_translations
+    FiatNavigator.translate_to_gold 500, :dollars
+    FiatNavigator.translate_to_gold 1000, :dollars
+    translations = FiatNavigator.all_previous_translations
+    assert_kind_of Array, translations
+    assert_equal "1000 dollars translates to 0.6018 ounces gold", translations[1]
+		assert_equal "500 dollars translates to 0.3009 ounces gold", translations[0]
+	end 
 end 

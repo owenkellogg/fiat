@@ -17,6 +17,10 @@ class FiatNavigator
   def self.previous_translation
     @@previous_translations.first
   end  
+  
+  def self.all_previous_translations
+    @@previous_translations
+  end 
 end
 
 require 'fiat_navigator/stash.rb'
