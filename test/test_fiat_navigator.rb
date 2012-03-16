@@ -8,4 +8,15 @@ class TestFiatNavigator < MiniTest::Unit::TestCase
 		assert_equal :ounces, gold.unit
 		assert_equal 0.3009, gold.amount
 	end 
+
+  def test_deal_with_fed
+    result = FiatNavigator.do_business_with_the_federal_reserve
+    assert_equal "Error: Hopefully this tool will not be used to facilitate such disappointing behavior.", result 
+  end 
+
+	def test_previous_translation
+		gold = FiatNavigator.translate_to_gold 500, :dollars
+		translation = FiatNavigator.previous_translation
+		assert_equal "500 dollars translates to 0.3009 ounces gold", translation
+	end 
 end 
