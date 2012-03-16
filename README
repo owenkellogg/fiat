@@ -6,6 +6,7 @@ Introducing ...
 --------> FIAT NAVIGATOR <<--------
 
 A simple calculator for translating currency units into weight in silver and gold, and vice versa. 
+
 USAGE
 
   # I want to pay a friend about the value of $500, in gold 
@@ -38,13 +39,13 @@ USAGE
 
     FiatNavigator.do_business_with_the_federal_reserve
     => Error: Hopefully this tool will not be used to facilitate such disappointing behavior. 
+ 
+  # I want to review the last full translation
 
-	# I want to review the last full translation
-
-		FiatNavigator.previous_translation
-		=> "0.2 ounces gold translates to 332.30 dollars"
+    FiatNavigator.previous_translation
+    => "0.2 ounces gold translates to 332.30 dollars"
 
   # Or all transactions from this session
 		
-		FiatNavigator.all_previous_translations
-		=> ["0.2 ounces gold translates to 332.30 dollars", "500 dollars translates to 0.3009 ounces gold"]
+    FiatNavigator.all_previous_translations
+    => ["0.2 ounces gold translates to 332.30 dollars", "500 dollars translates to 0.3009 ounces gold"]
