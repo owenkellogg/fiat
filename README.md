@@ -4,12 +4,13 @@ and would prefer to undertake transactions using real money.
 Introducing FIAT NAVIGATOR  A simple calculator for translating currency units into weight in silver and gold, and vice versa. 
 
 INSTALLATION
-
+<pre><code>
 	git clone git@github.com:stevenzeiler/fiat_navigator.git
   cd fiat_navigator
   gem build fiat_navigator.gemspec
   gem install fiat_navigator
-  
+</code></pre>
+
 USAGE
 
   require 'fiat_navigator'
