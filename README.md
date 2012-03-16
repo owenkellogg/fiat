@@ -7,7 +7,7 @@ USAGE
 
   I want to pay a friend about the value of $500, in gold 
 
-    gold = FiatNavigator.translate_to_gold 500, :$ 
+    gold = FiatNavigator.translate_to_gold 500, :dollars 
 
     puts gold
     => "0.3009 ounces gold"
